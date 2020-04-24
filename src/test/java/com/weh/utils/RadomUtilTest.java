@@ -12,7 +12,7 @@ public class RadomUtilTest {
 	@Test
 	public void testRadom() {
 		for (int i = 0; i < 10; i++) {
-			RadomUtil.radom(3, 2);
+			System.out.println(RadomUtil.radom(2, 10));
 		}
 	}
 	
